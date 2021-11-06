@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 0 -1.25%;
+}
+
+.column {
+    margin: 1.25%;
+    width: 22.5%;
+    min-width: 219px;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -12px;
+
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 12px;
+
+}
+
+.header-top {
+    margin: 0px -15px;
+    background-color: #1f1f56;
+    padding: 15.5px 0;
+}
+
+.top-menu a {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+    text-decoration: none;
+
+}
+
+.top-menu a:hover {
+    color: #fd8300;
+}
+
+.social a {
+    display: block;
+    background: url(../img/sprite.png) no-repeat;
+    transition: all 1s ease;
+
+}
+
+a.fb {
+    width: 10px;
+    height: 19px;
+    background-position: -2px 0;
+}
+
+a.fb:hover {
+    background-position: -2px -20px;
+
+}
+
+a.tw {
+    width: 18px;
+    height: 15px;
+    background-position: -16px 0;
+}
+
+a.tw:hover {
+    background-position: -15px -20px;
+
+}
+
+a.inst {
+    width: 19px;
+    height: 19px;
+    background-position: -36px 0;
+}
+
+a.inst:hover {
+    background-position: -35px -20px;
+
+}
+
+.phones,
+.mails {
+    padding-left: 47px;
+}
+
+.phones a,
+.mails a {
+    position: relative;
+}
+
+.phones a:before,
+.mails a:before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 2px;
+    background-image: url(../img/sprite.png);
+}
+
+.phones a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tel:before {
+    width: 16px;
+    height: 17px;
+    background-position: -82px -20px;
+}
+
+.email {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+}
+
+.email:before {
+    width: 17px;
+    height: 14px;
+    background-position: -102px -20px;
+}
+
+.skype {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+}
+
+.skype:before {
+    width: 18px;
+    height: 19px;
+    background-position: -61px -20px;
+}
+
+.button-call {
+    text-align: right;
+}
+
+.button-call a {
+    padding: 15px 27px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #fd8300;
+    border-radius: 25px;
+    transition: background-color .25s ease;
+}
+
+.button-call a:hover {
+    background-color: #fd8300;
+    border-color: #25252c;
+}
+
+.main-picture {
+
+    background-image: url(../img/mainbg.png)
+}
+
+.main-picture b {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.main {
+    display: flex;
+}
+
+.section a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+}
+
+.works {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+}
+
+.works a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+}
+
+.aside {
+
+    max-width: 200px;
+    background-color: #e4e4ec;
+}
+
+.aside ul {
+    list-style: none;
+}
+
+.aside p {
+    background-color: #1f1f56;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.footer-top {
+    background-color: #ededf5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bot {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bot ul {
+    list-style: none;
+}
+
+.footer-bot {
+    background-color: #dcdce6;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+}
