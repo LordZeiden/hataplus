@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -182,15 +191,37 @@ a.inst:hover {
 }
 
 .main-picture {
-
+    padding: 15px;
     background-image: url(../img/mainbg.png)
 }
 
-.main-picture b {
+.offer {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.money {
+    font-size: 24px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.money i {
+    font-size: 40px;
+    font-style: normal;
+
+}
+
+.offer b {
     font-size: 30px;
     letter-spacing: 2px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
     font-weight: 700;
     font-family: "Roboto Slab";
 }
@@ -199,12 +230,33 @@ a.inst:hover {
     display: flex;
 }
 
+.section {
+    max-width: 670px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
 .section a {
     font-size: 14px;
     line-height: 24px;
     text-decoration: underline;
     color: #fd8300;
     font-weight: bold;
+}
+
+.section a:hover {
+    background-color: #1f1f56;
+    color: #fff;
 }
 
 .works {
@@ -220,25 +272,51 @@ a.inst:hover {
     line-height: 24px;
     color: #1f1f56;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.works p {
+    padding: 0;
+    margin: 0;
 }
 
 .aside {
-
-    max-width: 200px;
+    max-width: 320px;
     background-color: #e4e4ec;
 }
 
-.aside ul {
-    list-style: none;
-}
-
 .aside p {
+    padding: 10px;
     background-color: #1f1f56;
     font-size: 16px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
     font-weight: 700;
     font-family: "Roboto Slab";
+}
+
+.aside ul {
+
+    list-style: none;
+    padding-right: 0 40px;
+}
+
+.aside a {
+
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+}
+
+.aside a:hover {
+    background-color: #fd8300;
+    color: #fff;
+    padding-left: 20px;
+
 }
 
 .footer-top {
@@ -261,6 +339,19 @@ a.inst:hover {
 
 .nav-bot ul {
     list-style: none;
+
+}
+
+.nav-bot li>a {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.nav-bot li>a:hover {
+    color: #fd8300;
+    text-decoration: underline;
 }
 
 .footer-bot {
