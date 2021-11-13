@@ -241,6 +241,24 @@ a.inst:hover {
 
 }
 
+.contentprice p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.contentprice a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+}
+.contentprice a:hover {
+    text-decoration:none ;
+}
+
 h1 {
     font-size: 30px;
     line-height: 24px;
@@ -327,8 +345,6 @@ figcaption sup {
     list-style: none;
     padding: 0;
 }
-
-.aside li {}
 
 .aside a {
     padding: 10px;
