@@ -191,24 +191,24 @@ a.inst:hover {
 }
 
 .main-picture {
-    padding: 40px;
+    padding: 68px;
     background: url(../img/mainbg.png) center/cover;
 }
 
 .offer {
     font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
-    font-family: "Arial";
+    color: #fff;
     text-align: center;
+}
+
+.offer p {
+    margin: 0;
 }
 
 .money {
     font-size: 24px;
-    line-height: 24px;
     color: #fd8300;
     font-weight: bold;
-    font-family: "Arial";
 }
 
 .money i {
@@ -217,17 +217,19 @@ a.inst:hover {
 
 }
 
+.money sup {
+    font-size: 0.6em;
+}
+
 .offer b {
     font-size: 30px;
     letter-spacing: 2px;
-    line-height: 24px;
-    color: #fff;
-    font-weight: 700;
     font-family: "Roboto Slab";
 }
 
 .main {
     display: flex;
+    padding-top: 37px;
 }
 
 .section {
@@ -256,8 +258,7 @@ h1 {
 }
 
 .section a:hover {
-    background-color: #1f1f56;
-    color: #fff;
+    text-decoration: none;
 }
 
 .works {
@@ -268,7 +269,23 @@ h1 {
     color: #9999a6;
 }
 
+.works figure {
+    position: relative;
+}
+
 .works a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.works a:hover~span {
+    text-decoration: underline;
+}
+
+.works span {
     font-size: 14px;
     line-height: 24px;
     color: #1f1f56;
@@ -285,12 +302,17 @@ figure {
     margin: 0;
 }
 
+figcaption sup {
+    font-size: 0.6em;
+}
+
 .aside {
     margin: 0;
     display: block;
 }
 
 .aside p {
+    margin: 0;
     padding: 10px 15px;
     background-color: #1f1f56;
     font-size: 16px;
@@ -305,6 +327,8 @@ figure {
     list-style: none;
     padding: 0;
 }
+
+.aside li {}
 
 .aside a {
     padding: 10px;
