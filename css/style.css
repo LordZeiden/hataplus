@@ -24,6 +24,12 @@ body {
     margin: 0 -1.25%;
 }
 
+.row hr {
+    height: 52px;
+    width: 1px;
+    background-color: #e4e4ec;
+}
+
 .column {
     padding: 20px 0;
     margin: 1.25%;
@@ -242,6 +248,13 @@ a.inst:hover {
 
 }
 
+.section hr {
+    margin: 33px 0;
+    width: 713px;
+    height: 1px;
+    background-color: #e4e4ec;
+}
+
 h2 {
     font-size: 24px;
     line-height: 24px;
@@ -261,6 +274,7 @@ table {
     width: 960px;
     border-collapse: collapse;
 }
+
 .table th {
     padding: 15.5px 0;
     background-color: #1f1f56;
