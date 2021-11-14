@@ -25,6 +25,7 @@ body {
 }
 
 .column {
+    padding: 20px 0;
     margin: 1.25%;
     width: 22.5%;
     min-width: 219px;
@@ -241,11 +242,47 @@ a.inst:hover {
 
 }
 
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
 .contentprice p {
     margin: 0;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
+}
+
+table {
+    width: 960px;
+    border-collapse: collapse;
+}
+.table th {
+    padding: 15.5px 0;
+    background-color: #1f1f56;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+
+}
+
+.table td {
+    padding: 13px;
+    background-color: #e4e4ec;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+.table td:hover {
+    background-color: #fd8300;
 }
 
 .contentprice a {
@@ -255,8 +292,9 @@ a.inst:hover {
     color: #fd8300;
     font-weight: bold;
 }
+
 .contentprice a:hover {
-    text-decoration:none ;
+    text-decoration: none;
 }
 
 h1 {
@@ -298,6 +336,7 @@ h1 {
     bottom: 0;
     right: 0;
 }
+
 
 .works a:hover~span {
     text-decoration: underline;
@@ -396,9 +435,10 @@ figcaption sup {
 }
 
 .footer-bot {
+
     background-color: #dcdce6;
     color: #9999a6;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 14px 0;
 }
