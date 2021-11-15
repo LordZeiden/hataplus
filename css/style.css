@@ -270,9 +270,33 @@ h2 {
     color: #666666;
 }
 
+.contentprice i {
+    display: block;
+    font-style: normal;
+    padding-bottom: 25px;
+}
+.contentprice hr {
+    margin:33px 0;
+}
+
 table {
-    width: 960px;
+    width: 100%;
     border-collapse: collapse;
+    
+}
+
+th:nth-child() {
+    text-align: left;
+}
+
+th:last-child,
+td:last-child {
+    text-align: right;
+}
+
+.table {
+padding: 25px 0;
+
 }
 
 .table th {
@@ -288,14 +312,21 @@ table {
 
 .table td {
     padding: 13px;
-    background-color: #e4e4ec;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
-    font-family: "Arial";
+
 }
 
-.table td:hover {
+tbody>tr {
+    background-color: #e4e4ec;
+    
+}
+tbody>tr:not(:last-child) {
+    border-bottom: 1px solid #cdcddd ;
+}
+
+tbody>tr:hover {
     background-color: #fd8300;
 }
 
