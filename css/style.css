@@ -203,6 +203,7 @@ a.inst:hover {
 }
 
 .offer {
+    line-height: 30px;
     font-size: 14px;
     color: #fff;
     text-align: center;
@@ -264,19 +265,40 @@ h2 {
 }
 
 .contentprice p {
-    margin: 0;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
+    margin: 0;
+}
+
+.contentprice i {
+    display: block;
+    font-style: normal;
+    padding-bottom: 25px;
+}
+
+.contentprice hr {
+    margin: 33px 0;
 }
 
 table {
-    width: 960px;
+    width: 100%;
     border-collapse: collapse;
+    margin: 25px 0;
 }
 
+th:nth-child() {
+    text-align: left;
+}
+
+th:last-child,
+td:last-child {
+    text-align: right;
+}
+
+
 .table th {
-    padding: 15.5px 0;
+    padding: 15.5px;
     background-color: #1f1f56;
     font-size: 14px;
     line-height: 24px;
@@ -288,15 +310,29 @@ table {
 
 .table td {
     padding: 13px;
-    background-color: #e4e4ec;
     font-size: 14px;
     line-height: 24px;
-    color: #666666;
-    font-family: "Arial";
+
+
 }
 
-td:hover {
+tr>th:not(:last-child) {
+    text-align: left;
+}
+
+tbody>tr {
+    background-color: #e4e4ec;
+    color: #666666;
+
+}
+
+tbody>tr:not(:last-child) {
+    border-bottom: 1px solid #cdcddd;
+}
+
+tbody>tr:hover {
     background-color: #fd8300;
+    color: #fff;
 }
 
 .contentprice a {
@@ -400,6 +436,7 @@ figcaption sup {
 }
 
 .aside a {
+    position: relative;
     padding: 10px;
     text-decoration: none;
     display: block;
@@ -409,10 +446,48 @@ figcaption sup {
     font-family: "Arial";
 }
 
+.right-menu>li>a::after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid #666;
+    border-right: 1px solid #666;
+    transform: rotate(45deg);
+}
+
+
 .aside a:hover {
+    color: #666666;
+    background-color: #cecedd;
+
+}
+
+.right-menu>li:hover>a::after {
+    border-top-color: #fff;
+    border-right-color: #fff;
+    transform: rotate(135deg);
+    transition: all 0.5s ease;
+}
+
+.menu-in-menu {
+    display: none;
+}
+
+.right-menu>li:hover>a {
     background-color: #fd8300;
     color: #fff;
 
+}
+
+.right-menu>li:hover .menu-in-menu {
+    display: block;
+}
+
+.right-menu>li:not(:last-child) {
+    border-bottom: 1px solid #cdcddd;
 }
 
 .footer-top {
