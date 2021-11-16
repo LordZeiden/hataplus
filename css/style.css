@@ -295,7 +295,7 @@ table {
     font-family: "Arial";
 }
 
-.table td:hover {
+td:hover {
     background-color: #fd8300;
 }
 
