@@ -237,7 +237,7 @@ a.inst:hover {
 
 .main {
     display: flex;
-    padding-top: 37px;
+    padding: 37px 0;
 }
 
 .section {
@@ -298,7 +298,7 @@ td:last-child {
 
 
 .table th {
-    padding: 15.5px;
+    padding: 20px;
     background-color: #1f1f56;
     font-size: 14px;
     line-height: 24px;
@@ -427,6 +427,8 @@ figcaption sup {
     color: #fff;
     font-weight: 700;
     font-family: "Roboto Slab";
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .aside ul {
@@ -435,9 +437,19 @@ figcaption sup {
     padding: 0;
 }
 
+.aside li {
+    padding: 0;
+}
+
+.aside ul {
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+}
+
+
 .aside a {
     position: relative;
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
     display: block;
     font-size: 14px;
@@ -445,6 +457,7 @@ figcaption sup {
     color: #25252c;
     font-family: "Arial";
 }
+
 
 .right-menu>li>a::after {
     content: "";
@@ -474,6 +487,10 @@ figcaption sup {
 
 .menu-in-menu {
     display: none;
+}
+
+.menu-in-menu a {
+    padding: 10px 30px;
 }
 
 .right-menu>li:hover>a {
