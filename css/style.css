@@ -294,6 +294,8 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 25px 0;
+    border-radius: 3px 3px 3px 3px;
+    overflow: hidden;
 }
 
 th:nth-child() {
