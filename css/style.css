@@ -21,6 +21,7 @@ body {
 .header-bot {
     padding: 10px
 }
+
 .row {
     display: flex;
     align-items: flex-start;
@@ -570,6 +571,7 @@ figcaption sup {
 .footer-top {
     padding: 20px;
 }
+
 .footer-bot {
     background-color: #dcdce6;
     color: #9999a6;
