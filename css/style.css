@@ -116,6 +116,11 @@ a.inst:hover {
 
 }
 
+.header-bot {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    ;
+}
+
 .header-bot .row {
     align-items: center;
 }
