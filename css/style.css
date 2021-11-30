@@ -235,6 +235,7 @@ a.inst:hover {
 
 .offer p {
     margin: 0;
+    padding-bottom: 5px;
 }
 
 .money {
@@ -486,6 +487,7 @@ figcaption sup {
     line-height: 24px;
     color: #25252c;
     font-family: "Arial";
+    
 }
 
 
@@ -517,10 +519,13 @@ figcaption sup {
 
 .menu-in-menu {
     display: none;
+    
 }
 
 .menu-in-menu a {
     padding: 10px 30px;
+    color: #666666;
+
 }
 
 .right-menu>li:hover>a {
@@ -531,6 +536,7 @@ figcaption sup {
 
 .right-menu>li:hover .menu-in-menu {
     display: block;
+
 }
 
 .right-menu>li:not(:last-child) {
