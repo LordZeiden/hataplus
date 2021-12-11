@@ -293,6 +293,14 @@ h2 {
     font-family: "Roboto Slab";
 }
 
+h3 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab"
+}
+
 .contentprice p {
     font-size: 14px;
     line-height: 24px;
@@ -399,6 +407,12 @@ h1 {
     margin: 33px 0;
 }
 
+.border-contacts {
+    border-bottom: 1px solid #e4e4ec;
+    width: 100%;
+    margin: 33px 0;
+}
+
 .works {
     justify-content: space-between;
     font-size: 13px;
@@ -487,7 +501,7 @@ figcaption sup {
     line-height: 24px;
     color: #25252c;
     font-family: "Arial";
-    
+
 }
 
 
@@ -519,7 +533,7 @@ figcaption sup {
 
 .menu-in-menu {
     display: none;
-    
+
 }
 
 .menu-in-menu a {
@@ -582,6 +596,22 @@ figcaption sup {
 .nav-bot li>a:hover {
     color: #fd8300;
     text-decoration: underline;
+}
+
+.contacts {
+    max-width: 960px;
+}
+
+.feedback {
+    display: flex;
+}
+
+iframe {
+    border: none;
+}
+
+textarea {
+    max-width: 465px;
 }
 
 .footer-top {
