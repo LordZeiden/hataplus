@@ -599,7 +599,55 @@ figcaption sup {
 }
 
 .contacts {
-    max-width: 960px;
+    max-width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts p {}
+
+.contacts i {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+
+.contacts .tel {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+}
+
+.contacts .email {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
+}
+
+.contacts b {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.ofice {
+    max-width: 240px;
+}
+
+.call {
+    max-width: 240px;
+}
+
+.pay {
+    max-width: 240px;
 }
 
 .feedback {
