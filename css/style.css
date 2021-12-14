@@ -294,6 +294,7 @@ h2 {
 }
 
 h3 {
+    margin: 0;
     font-size: 14px;
     line-height: 24px;
     color: #24242b;
@@ -658,8 +659,56 @@ iframe {
     border: none;
 }
 
-textarea {
+.form {
     max-width: 465px;
+}
+
+form p {
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    padding-left: 25px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 21px;
+    color: #9999a6;
+    font-style: italic;
+}
+
+input[type=text]:focus {
+    border: 1px solid blue;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    border: 1px solid #c4c4d3;
+}
+
+textarea:focus {
+    border: 1px solid blue;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #c4c4d3;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #fd8300;
+    padding: 13.5px 35px;
+    border-radius: 20px;
 }
 
 .footer-top {
