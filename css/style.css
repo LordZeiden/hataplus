@@ -270,6 +270,10 @@ a.inst:hover {
     max-width: 713px;
 }
 
+.contacts p {
+    padding-bottom: 8px;
+}
+
 .section {
     margin: 0;
     font-size: 14px;
@@ -286,6 +290,8 @@ a.inst:hover {
 
 
 h2 {
+    margin: 0;
+    margin-bottom: 20px;
     font-size: 24px;
     line-height: 24px;
     color: #24242b;
@@ -606,7 +612,9 @@ figcaption sup {
     justify-content: space-between;
 }
 
-.contacts p {}
+.contacts p {
+    margin: 0;
+}
 
 .contacts i {
     font-style: normal;
@@ -662,6 +670,7 @@ iframe {
 
 .form {
     max-width: 465px;
+    margin-left: 25px;
 }
 
 form p {
@@ -670,7 +679,7 @@ form p {
 
 form {
     width: 100%;
-    padding-left: 25px;
+
     font-size: 13px;
     line-height: 21px;
     color: #666666;
@@ -735,9 +744,54 @@ input[type=submit] {
     font-weight: bold;
 }
 
+input[type=submit]:hover {
+    background-color: #e07400;
+}
+
+.check {
+    display: none;
+}
+
+.check+label {
+    position: relative;
+    padding-left: 50px;
+}
+
+.check:checked+label {
+    color: #666666;
+}
+
+.check+label::after {
+    content: "";
+    position: absolute;
+}
+
+.check+label::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #c4c4d3;
+    border-radius: 3px;
+    left: 25px;
+    top: -1px;
+
+}
+
+.check:checked+label:after {
+    width: 6px;
+    height: 2px;
+    border-left: 2px solid #222258;
+    border-bottom: 2px solid #222258;
+    transform: rotate(-45deg);
+    left: 29px;
+    top: 3px;
+}
+
 .footer-top {
     padding: 20px;
 }
+
 
 .footer-bot {
     background-color: #dcdce6;
